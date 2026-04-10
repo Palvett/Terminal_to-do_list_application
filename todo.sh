@@ -53,19 +53,19 @@ case "$COMMAND" in
     del)
         # Check if task number is provided
         if [ -z "$2" ]; then
-            echo -e "${Red}Error: Enter task number to delete"${NC}
+            echo -e "${Red}Error: Enter task number to delete${NC}"
             exit 1
         fi
 
         # Check if file is empty
         if [ ! -s "$Task_file" ]; then
-            echo -e "${Red}Error: No tasks to delete"${NC}
+            echo -e "${Red}Error: No tasks to delete${NC}"
             exit 1
         fi
 
          # Validate that input is a number
         if ! [[ "$2" =~ ^[0-9]+$ ]]; then
-            echo -e "${Red}Error: Not a valid number surely an interger"${NC}
+            echo -e "${Red}Error: Not a valid number surely an interger${NC}"
             exit 1
         fi
         # Using awk to obtain total number of lines.
@@ -80,7 +80,7 @@ case "$COMMAND" in
         echo -e "${Green}Task $2 deleted ${NC}"
         ;;
     clear)
-        > "$Task_file"
+        true > "$Task_file"
         echo -e "${Green}All task cleared!${NC}"
         ;;
 
