@@ -28,6 +28,16 @@ Claerars the list amongst other smart validations.
 ![image1](assets/image1.png)
 ![image2](assets/image2.png)
 
+## ⚙ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone <https://github.com/Palvett/Terminal_to-do_list_application.git>
+cd Terminal to-do list application
+** To obtain permissions to run the script**
+chmod +x todo.sh
+
 ## How to run the code
 
 ./todo.sh=to enter the command menu.

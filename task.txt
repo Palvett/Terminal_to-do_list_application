@@ -1,0 +1,18 @@
+[2026-04-10 11:18] Buy lipton
+[2026-04-10 11:19] Buy milk
+[2026-04-10 11:19] Buy sugar
+[2026-04-10 11:19] Buy ovaltine
+[2026-04-10 11:19] Buy bread
+[2026-04-10 11:20] Buy mayonaise
+[2026-04-10 11:20] Leave for Rebase
+[2026-04-10 11:21] Complete the to_do bash project
+[2026-04-10 11:22] Finish the readme.md file
+[2026-04-10 11:23] Creat linter.yml
+[2026-04-10 11:24] Launch github and creat a repository for to_do list
+[2026-04-10 11:25] Git init, commit and push to main branch
+[2026-04-10 11:26] come back and creat a future to_do list branch
+[2026-04-10 11:27] git add, commit and push from vs code
+[2026-04-10 11:29] git add, Correct the errors and then push again till you have two tick
+[2026-04-10 13:04] Alot on my mind
+[2026-04-10 13:04] del
+[2026-04-14 15:34] Siester time
